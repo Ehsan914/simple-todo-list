@@ -10,7 +10,7 @@ This is a beginner React project built as part of a masterclass series. The app 
 
 ## Screenshot
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](./Screenshot.png)
 
 ## Getting Started
 
