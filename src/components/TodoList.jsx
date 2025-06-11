@@ -61,7 +61,7 @@ const TodoList = () => {
                     </div>
                     <div className="bupper-bottom">
                         {checkedCount === todos.length && todos.length != 0 ? (<p>🎉 All tasks completed! Great job! </p>) :
-                            (<p>{todos.length ? `${todos.length} task${todos.length > 1 ? 's' : ''} remaining` : ""}</p>)
+                            (<p>{todos.length ? `${todos.length - checkedCount} task${(todos.length - checkedCount) > 1 ? 's' : ''} remaining` : ""}</p>)
                         }
                     </div>
                 </div>
